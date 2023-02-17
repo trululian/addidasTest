@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="addidasTest(failed)">
+    <classes>
+      <class name="co.addidas.TC_WHIS_LIST">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="TC_WISH_LIST"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- co.addidas.TC_WHIS_LIST -->
+    </classes>
+  </test> <!-- addidasTest(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
