@@ -9,17 +9,23 @@ public class MainPage extends Base {
         super(driver);
     }
 
+
     By tittleColecionJamaica = By.xpath("//strong[text()='Colección Jamaica game day']");
-    By btnWishList = By.xpath("//div[@data-auto-id = 'auxiliary-menu']");
+    By btnWishList = By.xpath("//div[@data-auto-id = 'auxiliary-menu']//a[@href= '/wishlists']");
+    By videoJamamicaCollection = By.xpath("//video[@src = 'https://brand.assets.adidas.com/image/upload/q_auto,vc_auto,c_scale,w_0.5/esCO/Images/tcarrusel-jff_tcm195-988656.mp4']");
 
     public void userIsInPage(){
         reporter("User is in Main Page");
-        isDisplayed(btnWishList);
-        //waitForElementPresent(btnWishList);
+        waitForElementclickeable(btnWishList);
+        waitForElementPresent(btnWishList);
+        assertIsDisplayed(btnWishList);
     }
     public void GoToCollectionJamaica (){
         reporter("user goes to Desire Collection");
         scrollToObject(tittleColecionJamaica);
+        waitForElementPresent(videoJamamicaCollection);
+        assertIsDisplayed(videoJamamicaCollection);
+        assertIsDisplayed(tittleColecionJamaica);
         clickElement(tittleColecionJamaica);
     }
 
