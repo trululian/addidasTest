@@ -4,50 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e73358a4-71ff-4a45-9942-f625c65ccfcd" name="Changes" comment="1 commit">
-      <change afterPath="$PROJECT_DIR$/output/Default Suite/addidasTest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/Default Suite/addidasTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/Default Suite/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/bullet_point.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/collapseall.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/emailable-report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/failed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/jquery-3.6.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/junitreports/TEST-co.addidas.TC_WHIS_LIST.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/navigator-bullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/old/Default Suite/addidasTest.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/old/Default Suite/classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/old/Default Suite/groups.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/old/Default Suite/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/old/Default Suite/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/old/Default Suite/methods-alphabetical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/old/Default Suite/methods-not-run.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/old/Default Suite/methods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/old/Default Suite/reporter-output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/old/Default Suite/testng.xml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/old/Default Suite/toc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/passed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/skipped.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/testng-reports.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/testng-reports.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/testng-reports1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/testng-reports2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/testng-results.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/testng.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/addidas/base/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/addidas/base/GlobalVariables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/addidas/pages/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/addidas/TC_WHIS_LIST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/drivers/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="e73358a4-71ff-4a45-9942-f625c65ccfcd" name="Changes" comment="2 commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/addidas/pages/WelcomePopUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/addidas/pages/WishListPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Default Suite/addidasTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/Default Suite/addidasTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Default Suite/addidasTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output/Default Suite/addidasTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/junitreports/TEST-co.addidas.TC_WHIS_LIST.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output/junitreports/TEST-co.addidas.TC_WHIS_LIST.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/old/Default Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/old/Default Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/old/Default Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/old/Default Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/old/Default Suite/reporter-output.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/old/Default Suite/reporter-output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/old/Default Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/old/Default Suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/addidas/base/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/addidas/base/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/addidas/pages/LoginPopUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/addidas/pages/LoginPopUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/addidas/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/addidas/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/addidas/pages/TendecyPageJamica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/addidas/pages/TendecyPageJamica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/addidas/TC_WHIS_LIST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/addidas/TC_WHIS_LIST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/addidas/base/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/addidas/base/Base.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/addidas/pages/LoginPopUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/addidas/pages/LoginPopUp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/addidas/pages/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/addidas/pages/MainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/addidas/pages/TendecyPageJamica.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/addidas/pages/TendecyPageJamica.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/addidas/TC_WHIS_LIST.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/addidas/TC_WHIS_LIST.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,17 +75,19 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
     &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
     &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/julia/OneDrive - utadeo.edu.co/addidasTest/addidasTest/output&quot;,
     &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -131,6 +114,8 @@
       <module name="addidasTest" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="co.addidas" />
       <option name="MAIN_CLASS_NAME" value="co.addidas.TC_WHIS_LIST" />
@@ -180,7 +165,35 @@
       <option name="project" value="LOCAL" />
       <updated>1676609118163</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1 commit">
+      <created>1676654805697</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676654805697</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1 commit">
+      <created>1676654833060</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676654833060</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2 commit">
+      <created>1676672716961</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676672716961</updated>
+    </task>
+    <task id="LOCAL-00007" summary="2 commit">
+      <created>1676686908746</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676686908746</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,17 +210,15 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="1 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="1 commit" />
+    <MESSAGE value="3 commit" />
+    <MESSAGE value="2 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 commit" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/co/addidas/base/Base.java</url>
-          <line>116</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="co.addidas.pages.MainPage" memberName="driver" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

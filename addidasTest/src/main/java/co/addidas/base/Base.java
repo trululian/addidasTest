@@ -4,15 +4,15 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.Reporter;
 
 import java.time.Duration;
 public class Base {
 
-    private WebDriver driver;
+    WebDriver driver;
 
     public Base(WebDriver driver){
-
         this.driver = driver;
     }
 
@@ -45,9 +45,9 @@ public class Base {
      */
     public void lunchBrowser (String url){
         reporter("Lunching URL "+url);
-        driver.get(url);
         driver.manage().window().maximize();
-        implicityWait(5);
+        driver.get(url);
+        implicityWait();
     }
 
     /*
@@ -98,6 +98,27 @@ public class Base {
             e.printStackTrace();
         }
     }
+    /*
+     * Element to be present
+     * @author Julian Pardo
+     * @param - element
+     */
+    public void waitForElementclickeable(By locator){
+        try{
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(GlobalVariables.GENERAL_TIME_OUT));
+            wait.until(ExpectedConditions.elementToBeClickable(locator));
+        }catch(TimeoutException e){
+            e.printStackTrace();
+        }
+    }
+
+
+
+    /*
+     * click element method
+     * @author Julian Pardo
+     * @param WebElement - Element to be validated
+     */
     public void clickElement (By locator){
         try{
             driver.findElement(locator).click();
@@ -105,6 +126,30 @@ public class Base {
             e.printStackTrace();
         }
 
+    }
+    /*
+     * click element method
+     * @author Julian Pardo
+     * @param WebElement - Element to be validated
+     */
+    public void submitElement (By locator){
+        try{
+            driver.findElement(locator).submit();
+        }catch(NoSuchElementException e){
+            e.printStackTrace();
+        }
+
+    }
+
+    public void clickElementJs(By locator){
+        try{
+            WebElement b = driver.findElement(locator);
+            JavascriptExecutor js = (JavascriptExecutor) driver;
+            js.executeScript("document.querySelector("+locator+").click()");
+            //js.executeScript("arguments[0].click();",b);
+        }catch(NoSuchElementException e){
+            e.printStackTrace();
+        }
     }
 
     /*
@@ -120,20 +165,99 @@ public class Base {
             return false;
         }
     }
+
+    /*
+     * Assert is Displayed method
+     * @author Julian Pardo
+     * @param WebElement - Element to be validated
+     */
+    public void assertIsDisplayed(By locator){
+        try {
+            Assert.assertEquals(driver.findElement(locator).isDisplayed(),true);
+        }catch(AssertionError e){
+            Assert.fail(e.getMessage() +" element is not displayed ");
+        }
+    }
+
     /*
      * Scroll to object
+     * @author Julian Pardo
+     * @param WebElement - Element to be validated
      */
 
     public void scrollToObject (By locator){
 
         try {
+            waitForElementPresent(locator);
             JavascriptExecutor js = (JavascriptExecutor) driver;
             js.executeScript("arguments[0].scrollIntoView();", driver.findElement(locator));
-            isDisplayed(locator);
+            assertIsDisplayed(locator);
         }catch(NoSuchElementException e){
             e.printStackTrace();
 
         }
     }
 
+    /*
+     * Obtain Page URL
+     * @author Julian Pardo
+     * @param WebElement - Element to be validated
+     */
+
+    public String obtainPageUrl (){
+        String url = driver.getCurrentUrl();
+        return url;
+    }
+
+    /*
+     * Assert equals String method
+     * @author Julian Pardo
+     * @param String actual and expected values
+     */
+    public void assertEqualsString (String actual, String Expected){
+        try {
+            Assert.assertEquals(actual,Expected);
+        }catch(AssertionError e){
+            Assert.fail(e.getMessage() +" Actual value "+actual+" does not match the expected value "+ Expected);
+        }
+    }
+    /*
+     * Assert equals Boolean method
+     * @author Julian Pardo
+     * @param String actual and expected values
+     */
+    public void assertEqualsBoolean (boolean actual, boolean Expected){
+        try {
+            Assert.assertEquals(actual,Expected);
+        }catch(AssertionError e){
+            Assert.fail(e.getMessage() +" Actual value "+actual+" does not match the expected value "+ Expected);
+        }
+    }
+
+    /*
+     * Type Method
+     * @author Julian Pardo
+     * @param WebElement - Element where the text will be inputted
+     */
+    public void type (By locator, String text){
+        try {
+            driver.findElement(locator).sendKeys(text);
+        }catch(NoSuchElementException e){
+            e.printStackTrace();
+        }
+    }
+
+    /*
+     * get text from Element
+     * @author Julian Pardo
+     * @param WebElement - Element where the text will be inputted
+     */
+    public String getTextFromWebElement (By locator){
+        try {
+            return driver.findElement(locator).getText();
+        }catch(NoSuchElementException e){
+            e.printStackTrace();
+            return null;
+        }
+    }
 }
