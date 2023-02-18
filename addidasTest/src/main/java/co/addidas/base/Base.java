@@ -1,5 +1,7 @@
 package co.addidas.base;
 
+import org.json.JSONObject;
+import org.json.JSONTokener;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -7,6 +9,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.Reporter;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
 import java.time.Duration;
 public class Base {
 
@@ -260,4 +265,24 @@ public class Base {
             return null;
         }
     }
+    /*
+     * Get data from JSON FILE
+     * @author Julian Pardo
+     */
+
+    public String getJSONvalue(String jsonFileObj, String jsonKey){
+        try{
+            //JSON data
+            InputStream inputStream = new FileInputStream(GlobalVariables.PATH_JSON_DATA + jsonFileObj +".json");
+            JSONObject jsonObject = new JSONObject(new JSONTokener(inputStream));
+
+            //Get Data
+            String jsonValue = (String) jsonObject.getJSONObject(jsonFileObj).get(jsonKey);
+            return jsonValue;
+        }catch (FileNotFoundException e){
+            Assert.fail("JSON File is not found");
+            return null;
+        }
+    }
+
 }

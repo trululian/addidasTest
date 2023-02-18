@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-public class TC_WHIS_LIST {
+public class TC_WISH_LIST {
     WebDriver driver;
     Base base;
     MainPage mainPage;
@@ -16,6 +16,8 @@ public class TC_WHIS_LIST {
     LoginPopUp loginPopUp;
     WelcomePopUp welcomePopUp;
     WishListPage wishListPage;
+
+    String facebookEmail, facebookPassword, urlToCompare, productName;
 
     @BeforeTest
     public void beforeTest(){
@@ -32,8 +34,10 @@ public class TC_WHIS_LIST {
 
 
         // test data json
-        /*this.userName = base.getJSONvalue("LoginCredentials","username");
-        this.password = base.getJSONvalue("LoginCredentials","password");*/
+        this.facebookEmail = base.getJSONvalue("LoginCredentials","facebookEmail");
+        this.facebookPassword = base.getJSONvalue("LoginCredentials","facebookPassword");
+        this.urlToCompare = base.getJSONvalue("TC_WISH_LIST","urlToCompare");
+        this.productName = base.getJSONvalue("TC_WISH_LIST","productName");
 
     }
 
@@ -44,22 +48,22 @@ public class TC_WHIS_LIST {
         mainPage.GoToCollectionJamaica();
         jamaicaTendency.closePopUp();
         jamaicaTendency.userIsInPage();
-        jamaicaTendency.compareURL("https://www.adidas.co/jamaica");
+        jamaicaTendency.compareURL(urlToCompare);
         jamaicaTendency.GoToDesireProductGuayos();
         guayosPage.userIsInPage();
         guayosPage.addGuayosToWishList();
         loginPopUp.userIsInPage();
-        loginPopUp.loginInFacBook("3174235969","6733647Ju*");
+        loginPopUp.loginInFacBook(facebookEmail,facebookPassword);
         welcomePopUp.succesfullyLogin();
         welcomePopUp.closePopUp();
         mainPage.goToWishList();
         wishListPage.userIsInPage();
-        wishListPage.validateProdcutInWishlist("Guayos X Speedportal.3 Cancha Cubierta");
+        wishListPage.validateProdcutInWishlist(productName);
 
     }
     @AfterTest
     public void afterTest(){
-        //base.closeBrowser();
+        base.closeBrowser();
     }
 
 
