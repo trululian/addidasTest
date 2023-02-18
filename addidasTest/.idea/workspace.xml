@@ -4,30 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e73358a4-71ff-4a45-9942-f625c65ccfcd" name="Changes" comment="2 commit">
-      <change afterPath="$PROJECT_DIR$/output/junitreports/TEST-co.addidas.TC_WISH_LIST.xml" afterDir="false" />
+    <list default="true" id="e73358a4-71ff-4a45-9942-f625c65ccfcd" name="Changes" comment="3 commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/Default Suite/addidasTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/Default Suite/addidasTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/Default Suite/addidasTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output/Default Suite/addidasTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/Default Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output/Default Suite/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/junitreports/TEST-co.addidas.TC_WHIS_LIST.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output/junitreports/TEST-co.addidas.TC_WHIS_LIST.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/old/Default Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/old/Default Suite/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/old/Default Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/old/Default Suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/old/Default Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/old/Default Suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/old/Default Suite/reporter-output.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/old/Default Suite/reporter-output.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/old/Default Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/old/Default Suite/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/addidas/base/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/addidas/base/Base.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/addidas/base/GlobalVariables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/addidas/base/GlobalVariables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/addidas/TC_WHIS_LIST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/addidas/TC_WISH_LIST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/addidas/base/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/addidas/base/Base.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/addidas/base/GlobalVariables.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/addidas/base/GlobalVariables.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/addidas/pages/WelcomePopUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/addidas/pages/WelcomePopUp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/addidas/pages/WishListPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/addidas/pages/WishListPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/co/addidas/TC_WHIS_LIST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testdata/json/LoginCredentials.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testdata/json/LoginCredentials.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +24,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="github/test" />
+  </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$/.." value="master" />
@@ -207,7 +191,28 @@
       <option name="project" value="LOCAL" />
       <updated>1676762555669</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="3 commit">
+      <created>1676764370834</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1676764370834</updated>
+    </task>
+    <task id="LOCAL-00011" summary="3 commit">
+      <created>1676764527521</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676764527521</updated>
+    </task>
+    <task id="LOCAL-00012" summary="3 commit">
+      <created>1676764586681</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1676764586682</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,9 +229,10 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="1 commit" />
-    <MESSAGE value="3 commit" />
     <MESSAGE value="2 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="2 commit" />
+    <MESSAGE value="4 commit" />
+    <MESSAGE value="3 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="3 commit" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="XDebuggerManager">
