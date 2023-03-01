@@ -11,8 +11,10 @@ public class TC_WISH_LIST {
     WebDriver driver;
     Base base;
     MainPage mainPage;
-    TendecyPageJamica jamaicaTendency;
-    GuayosPage guayosPage;
+    //TendecyPageJamica jamaicaTendency;
+    //GuayosPage guayosPage;
+    TendecyPage tendecyPage;
+    ProductPage productPage;
     LoginPopUp loginPopUp;
     WelcomePopUp welcomePopUp;
     WishListPage wishListPage;
@@ -25,8 +27,10 @@ public class TC_WISH_LIST {
         base = new Base(driver);
         driver = base.chromeDriver();
         mainPage = new MainPage(driver);
-        jamaicaTendency = new TendecyPageJamica(driver);
-        guayosPage = new GuayosPage(driver);
+        //jamaicaTendency = new TendecyPageJamica(driver);
+        //guayosPage = new GuayosPage(driver);
+        tendecyPage = new TendecyPage(driver);
+        productPage = new ProductPage(driver);
         loginPopUp = new LoginPopUp(driver);
         welcomePopUp = new WelcomePopUp(driver);
         wishListPage = new WishListPage(driver);
@@ -45,13 +49,13 @@ public class TC_WISH_LIST {
     public void TC_WISH_LIST(){
         base.lunchBrowser(GlobalVariables.QA_URL);
         mainPage.userIsInPage();
-        mainPage.GoToCollectionJamaica();
-        jamaicaTendency.closePopUp();
-        jamaicaTendency.userIsInPage();
-        jamaicaTendency.compareURL(urlToCompare);
-        jamaicaTendency.GoToDesireProductGuayos();
-        guayosPage.userIsInPage();
-        guayosPage.addGuayosToWishList();
+        mainPage.GoToCollection();
+        tendecyPage.closePopUp();
+        tendecyPage.userIsInPage();
+        tendecyPage.compareURL(urlToCompare);
+        tendecyPage.GoToDesireProduct();
+        productPage.userIsInPage();
+        productPage.addSelectedProductToWishList();
         loginPopUp.userIsInPage();
         loginPopUp.loginInFacBook(facebookEmail,facebookPassword);
         welcomePopUp.succesfullyLogin();

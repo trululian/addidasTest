@@ -27,8 +27,7 @@ public class Base {
      * @param String - Message to be reported
      */
     public void reporter(String message){
-
-        Reporter.log(message);
+        Reporter.log("**"+message+"**");
     }
 
     /*
@@ -67,7 +66,7 @@ public class Base {
      * Implicity Wait
      * @author Julian Pardo
      * @param - time in seconds
-     */
+
     public void implicityWait (int seconds){
         try {
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(seconds));
@@ -76,6 +75,7 @@ public class Base {
             e.printStackTrace();
         }
     }
+    */
 
     /*
      * Implicity Wait2
@@ -132,20 +132,22 @@ public class Base {
         }
 
     }
+
     /*
      * click element method
      * @author Julian Pardo
      * @param WebElement - Element to be validated
-     */
+
     public void submitElement (By locator){
         try{
             driver.findElement(locator).submit();
         }catch(NoSuchElementException e){
             e.printStackTrace();
         }
-
     }
+    */
 
+/*
     public void clickElementJs(By locator){
         try{
             WebElement b = driver.findElement(locator);
@@ -156,7 +158,7 @@ public class Base {
             e.printStackTrace();
         }
     }
-
+*/
     /*
      * is Displayed method
      * @author Julian Pardo
@@ -178,7 +180,7 @@ public class Base {
      */
     public void assertIsDisplayed(By locator){
         try {
-            Assert.assertEquals(driver.findElement(locator).isDisplayed(),true);
+            Assert.assertEquals(isDisplayed(locator),true);
         }catch(AssertionError e){
             Assert.fail(e.getMessage() +" element is not displayed ");
         }

@@ -16,8 +16,8 @@ public class WelcomePopUp extends Base{
 
     public void succesfullyLogin(){
         reporter("User was successfully logged");
+        waitForElementPresent(btnGoToAccount);
         waitForElementPresent(welcomeTxt);
-        waitForElementclickeable(btnGoToAccount);
         assertIsDisplayed(welcomeTxt);
         assertIsDisplayed(btnGoToAccount);
         String welcomeMsg=getTextFromWebElement(welcomeTxt);
@@ -26,7 +26,7 @@ public class WelcomePopUp extends Base{
     }
 
     public void closePopUp(){
-       reporter("Closing thewelcome pop up");
+       reporter("Closing the welcome pop up");
        waitForElementclickeable(btnClose);
        assertIsDisplayed(btnClose);
        clickElement(btnClose);
