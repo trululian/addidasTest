@@ -13,10 +13,10 @@ public class TendecyPage extends Base {
 
     By headerPopUP = By.xpath("//h1[text()='ÚNETE Y RECIBE UN 15% DE DESCUENTO']");
     By btnClosePopUP = By.xpath("//button[@class = 'gl-modal__close']");
-    By hdrCollectionpage = By.xpath("//h2[text()='Ultraboost Light']");
-    By hdrcollectionPageName = By.xpath("//h1/span[text()='Ultraboost - Ultraboost Light']");
-    By hrefDesireProduct = By.xpath("//a[@href='https://www.adidas.co/tenis-ultraboost-5-dna/GV8743.html']//p[text()='Tenis Ultraboost 5 DNA']");
-    By imgDesireProduct = By.xpath("//img[@src='https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/5fe93efae8ee4fa7a285ae370134c365_9366/tenis-ultraboost-5-dna.jpg']");
+    By hdrCollectionpage = By.xpath("//h2[text()='TU OUTFIT MÁS FEP']");
+    By hdrcollectionPageName = By.xpath("//h1/span[text()='adidas x Estéreo Picnic 2023']");
+    By hrefDesireProduct = By.xpath("//a[@href='https://www.adidas.co/top-deportivo-estampado-tipo-marmol/IC2215.html']//p[text()='Top Deportivo Estampado Tipo Mármol']");
+    By imgDesireProduct = By.xpath("//img[@src='https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/0a6bd7396ee54a87b187af5b0129c89f_9366/top-deportivo-estampado-tipo-marmol.jpg']");
 
     public void closePopUp(){
         reporter("Closing pop up");

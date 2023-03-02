@@ -10,7 +10,7 @@ public class WishListPage extends Base {
     }
 
     By hdrMyWishList = By.xpath("//div[@data-auto-id='my-wishlist-view-container']/h4");
-    By productNameC = By.xpath("//div[@class='glass-product-card__details']/p[text()='Tenis Ultraboost 5 DNA']");
+    By productNameC = By.xpath("//div[@class='glass-product-card__details']/p[text()='Top Deportivo Estampado Tipo Mármol']");
     public void userIsInPage(){
         reporter("User is in wishList");
         waitForElementPresent(hdrMyWishList);

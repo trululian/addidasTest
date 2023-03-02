@@ -11,11 +11,11 @@ public class MainPage extends Base {
 
 
     By hdrTendecias = By.xpath("//h4[text()='TENDENCIAS']");
-    By tittleColecion = By.xpath("//strong[text()='Ultraboost Light. Nuestro Ultraboost más ligero.']");
+    By tittleColecion = By.xpath("//strong[text()='¿Estás listx para fep?']");
    // By tittleColecionJamaica = By.xpath("//strong[text()='Colección Jamaica game day']");
     By btnWishList = By.xpath("//div[@data-auto-id = 'auxiliary-menu']//a[@href= '/wishlists']");
    // By videoJamamicaCollection = By.xpath("//video[@src = 'https://brand.assets.adidas.com/image/upload/q_auto,vc_auto,c_scale,w_0.5/esCO/Images/tcarrusel-jff_tcm195-988656.mp4']");
-    By videoCollection = By.xpath("//video[@src='https://brand.assets.adidas.com/video/upload/q_auto,vc_auto,c_scale,w_0.5/video/upload/running-ss23-ultraboost-light-global-ea-educate-hp-teaser-carousel-d_oqpyya.mp4']");
+    By mediaCollection = By.xpath("//img[@src='https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_800,w_800/esCO/Images/fep-tc-d_tcm195-1002130.jpg']");
 
     public void userIsInPage(){
         reporter("User is in Main Page");
@@ -27,7 +27,8 @@ public class MainPage extends Base {
         reporter("user goes to Desire Collection");
         scrollToObject(hdrTendecias);
         waitForElementPresent(tittleColecion);
-        assertIsDisplayed(videoCollection);
+        waitForElementPresent(mediaCollection);
+        assertIsDisplayed(mediaCollection);
         assertIsDisplayed(tittleColecion);
         clickElement(tittleColecion);
     }

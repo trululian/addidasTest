@@ -5,5 +5,5 @@ public class GlobalVariables {
     public static final String CHROME_DRIVER_LOCATION = "C:/Users/julia/OneDrive - utadeo.edu.co/addidasTest/addidasTest/src/test/resources/drivers/chromedriver.exe";
     public  static final String QA_URL = "https://www.adidas.co";
     public static final String PATH_JSON_DATA = "C:/Users/julia/OneDrive - utadeo.edu.co/addidasTest/addidasTest/src/test/resources/testdata/json/";
-    public static final int GENERAL_TIME_OUT = 15;
+    public static final int GENERAL_TIME_OUT = 20;
 }
