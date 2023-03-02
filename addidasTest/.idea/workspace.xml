@@ -4,65 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e73358a4-71ff-4a45-9942-f625c65ccfcd" name="Changes" comment="4 commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/addidas/pages/ProductPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/addidas/pages/TendecyPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_core_5_0_0_RC2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_expressions_8_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_java_5_0_0_RC2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_junit_5_0_0_RC2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_picocontainer_5_0_0_RC2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_plugin_5_0_0_RC2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_datatable_3_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_datatable_dependencies_3_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_docstring_5_0_0_RC2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_gherkin_5_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_gherkin_jvm_deps_1_0_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_tag_expressions_2_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_picocontainer_picocontainer_2_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ru_yandex_qatools_ashot_ashot_1_5_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" beforeDir="false" />
+    <list default="true" id="e73358a4-71ff-4a45-9942-f625c65ccfcd" name="Changes" comment="5 commit - with new tendency and product">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addidasTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/addidasTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/Default Suite/addidasTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/Default Suite/addidasTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/Default Suite/addidasTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output/Default Suite/addidasTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/junitreports/TEST-co.addidas.TC_WISH_LIST.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output/junitreports/TEST-co.addidas.TC_WISH_LIST.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/old/Default Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/old/Default Suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/old/Default Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/old/Default Suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/old/Default Suite/reporter-output.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/old/Default Suite/reporter-output.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/addidas/base/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/addidas/base/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/addidas/base/GlobalVariables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/addidas/base/GlobalVariables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/addidas/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/addidas/pages/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/addidas/pages/WelcomePopUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/addidas/pages/WelcomePopUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/addidas/pages/WishListPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/addidas/pages/WishListPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/addidas/TC_WISH_LIST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/addidas/TC_WISH_LIST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/drivers/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/drivers/chromedriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/testdata/json/LoginCredentials.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testdata/json/LoginCredentials.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testdata/json/TC_WISH_LIST.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testdata/json/TC_WISH_LIST.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/addidas/base/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/addidas/base/Base.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/addidas/base/GlobalVariables.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/addidas/base/GlobalVariables.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/addidas/pages/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/addidas/pages/MainPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/addidas/pages/WelcomePopUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/addidas/pages/WelcomePopUp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/addidas/pages/WishListPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/addidas/pages/WishListPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/co/addidas/TC_WISH_LIST.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/addidas/TC_WISH_LIST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/drivers/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/drivers/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testdata/json/TC_WISH_LIST.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testdata/json/TC_WISH_LIST.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -277,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676814416689</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="5 commit - with new tendency and product">
+      <created>1677689577385</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1677689577385</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -297,7 +248,8 @@
     <MESSAGE value="2 commit" />
     <MESSAGE value="3 commit" />
     <MESSAGE value="4 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="4 commit" />
+    <MESSAGE value="5 commit - with new tendency and product" />
+    <option name="LAST_COMMIT_MESSAGE" value="5 commit - with new tendency and product" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="XDebuggerManager">
